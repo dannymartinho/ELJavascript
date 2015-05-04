@@ -39,3 +39,11 @@ function rangemod(start, end, step) {
     return nums;
 
 }
+
+function reverseArray(){
+
+}
+
+function reverseArrayInPlace(){
+
+}
