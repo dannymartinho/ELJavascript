@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function isEven(num) {
     switch (num) {
     case 0:
@@ -35,7 +34,8 @@ function countChar(p, w) {
         }
     }
     return count;
-=======
+}
+
 //Chapter 4
 
 function range(start, end) {
@@ -78,11 +78,10 @@ function rangemod(start, end, step) {
 
 }
 
-function reverseArray(){
+function reverseArray() {
 
 }
 
-function reverseArrayInPlace(){
+function reverseArrayInPlace() {
 
->>>>>>> ELJavascript/master
 }
