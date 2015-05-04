@@ -23,9 +23,19 @@ function rangeTotal(nums) {
 function rangemod(start, end, step) {
     var nums = [],
         i = 0;
-    for (i = start; i <= end && i >= 0; i = i + step) {
+    if (step > 0) {
 
-        console.log(nums.push(i));
+        for (i = start; i <= end; i = i + step) {
+
+            console.log(nums.push(i));
+        }
+    } else if (step < 0) {
+        for (j = end; j > start; j = j + step) {
+
+            console.log(nums.push(j));
+        }
     }
+
     return nums;
+
 }
