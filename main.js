@@ -78,8 +78,13 @@ function rangemod(start, end, step) {
 
 }
 
-function reverseArray() {
-
+function reverseArray(list) {
+    elNum = list.length;
+    newArray = [];
+    for (i = elNum - 1; i >= 0; i--) {
+        newArray.push(list[i]);
+    }
+    return newArray;
 }
 
 function reverseArrayInPlace() {
