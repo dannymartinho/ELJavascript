@@ -1,3 +1,5 @@
+//Chapter3
+
 function isEven(num) {
     switch (num) {
     case 0:
@@ -87,6 +89,14 @@ function reverseArray(list) {
     return newArray;
 }
 
-function reverseArrayInPlace() {
-
+function reverseArrayInPlace(list) {
+    var listLength = list.length,
+        listLengthDiv2 = listLength / 2,
+        temp = 0;
+    for (i = 0; i < listLengthDiv2; i++) {
+        temp = list[i];
+        list[i] = list[listLength - i - 1];
+        list[listLength - i - 1] = temp;
+    }
+    return list;
 }
